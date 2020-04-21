@@ -7,6 +7,7 @@ export default class RightView extends React.Component{
   constructor(props){
     super(props);
     this.state = {
+      PcType:false,
       code: `https://api.qrserver.com/v1/create-qr-code/?data=${window.location.href}`
     }
   }
@@ -24,20 +25,27 @@ export default class RightView extends React.Component{
           <i></i>
           <span>返回顶部</span>
         </div>
-        <div className="item" onMouseOver={()=>{
-          // ${location.href}
-          console.log(window.location.href);
-          let href = window.location.href
-          // this.setState({
-          //   code:`https://api.qrserver.com/v1/create-qr-code/?data=${href}`
-          // })
-        }}>
+        <div className="item">
           <div className="rightcode">
             <img src={this.state.code}/>
           </div>
           <i></i>
           <span>扫码查看</span>
         </div>
+        {
+          !this.props.webOrWx && 
+          <div className={this.state.PcType ? 'item pctype selected' : 'item pctype'} onClick={
+            ()=>{
+              this.props.onPcType(!this.state.PcType)
+              this.setState({
+                PcType: !this.state.PcType
+              })
+            }
+          }>
+            <i></i>
+            <span>更换模式</span>
+          </div>
+        }
         <div className="item" onClick={()=>{
           this.props.onChnageType(!this.props.webOrWx)
         }}>

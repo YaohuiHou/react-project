@@ -103,7 +103,7 @@
           "id": "127",
           "name": "迪拜旅游局：全城派福",
           "link": "http://daole.qyer.com/dubai2020/",
-          "wap_link": "",
+          "wap_link": "http://daole.qyer.com/dubai2020/",
           "photo": "//pic.qyer.com/zt/bd6f/397a/5256/76fb/96a3/46a2/993c/e362",
           "wap_max_img": "//pic.qyer.com/zt/c98b/ebaa/94a4/bcd1/86c1/330d/50e9/e8ab",
           "wap_min_img": "//pic.qyer.com/zt/bd6f/397a/5256/76fb/96a3/46a2/993c/e362",
@@ -457,11 +457,25 @@
         "qrcode": "https://api.qrserver.com/v1/create-qr-code/?data=http://topic.360che.com/m/2016071301/"
       },
       {
-        "id": "65",
+        "id": "64",
         "name": "潍柴质领“心”标准 答题活动开始啦！",
         "wap_link": "https://topic.360che.com/m/2017051701/index.aspx",
         "photo": "https://img8.kcimg.cn/HW_Image/2017/0522/0522135028.jpg",
         "qrcode": "https://api.qrserver.com/v1/create-qr-code/?data=https://topic.360che.com/m/2017051701/index.aspx"
+      },
+      {
+        "id": "63",
+        "name": "互助问答：卡车之家，所有卡车人温暖的家",
+        "wap_link": "https://bbs.360che.com/weixin/",
+        "photo": "https://img9.kcimg.cn/imga/0/681/681858.jpg!602",
+        "qrcode": "https://api.qrserver.com/v1/create-qr-code/?data=https://bbs.360che.com/weixin/"
+      },
+      {
+        "id": "62",
+        "name": "整车商城",
+        "wap_link": "http://maiche.360che.com/index/index",
+        "photo": "https://img9.kcimg.cn/imga/0/681/681858.jpg!602",
+        "qrcode": "https://api.qrserver.com/v1/create-qr-code/?data=http://maiche.360che.com/index/index"
       }
   ]
 }

@@ -19,6 +19,10 @@
   cursor: pointer;
   overflow:hidden
 }
+.rightfixed .item.selected{
+  font-weight: bold;
+  color: #f60;
+}
 .rightfixed .item:before{
   content: '';
   display: block;
@@ -35,6 +39,9 @@
 }
 .rightfixed .item:nth-of-type(2) i{
   background-position: 0 -24px;
+}
+.rightfixed .item.pctype i{
+  background-position: 0 -116px;
 }
 .rightfixed .item span{
   position: absolute;
@@ -94,7 +101,7 @@
   .rightfixed .item span{
     bottom: 10px;
   }
-  .rightfixed .item:nth-of-type(2){
+  .rightfixed .item:nth-of-type(2),.rightfixed .item.pctype{
     display: none;
   }
 }

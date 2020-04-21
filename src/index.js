@@ -10,9 +10,11 @@ class AppContent extends React.Component{
   constructor(props){
     super(props);
     this.clickShowWXContent = this.clickShowWXContent.bind(this)
+    this.clickChangePcType = this.clickChangePcType.bind(this)
     this.state = {
       // false: web  true: wx
-      webOrWx:false
+      webOrWx:false,
+      PcType:false
     }
   }
   clickShowWXContent(type){
@@ -20,16 +22,22 @@ class AppContent extends React.Component{
       webOrWx: type
     })
   }
+  clickChangePcType(type){
+    this.setState({
+      PcType:type
+    })
+  }
   render(){
     let webOrWx = this.state.webOrWx;
     let content;
     if(webOrWx){
-      content = <div><RightView onChnageType={this.clickShowWXContent} webOrWx={webOrWx}/><WXapp /></div>
+      content = <WXapp/>
     }else{
-      content = <div><RightView onChnageType={this.clickShowWXContent} webOrWx={webOrWx}/><App /></div>
+      content = <App  PcType={this.state.PcType}/>
     }
     return(
       <div>
+        <RightView onPcType={this.clickChangePcType} onChnageType={this.clickShowWXContent} webOrWx={webOrWx}/>
         {content}
       </div>
     )
