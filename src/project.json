@@ -40,16 +40,31 @@
           "mtime": "1584086208"
       },
       {
+        "id": "134",
+        "name": "《穷游体验馆》—— 穷游体验馆模板页面",
+        "link": "",
+        "wap_link": "https://daole.qyer.com/experiencehall?period=23",
+        "photo": "//fes.qyerstatic.com/FhytA9fDkF7YbwOL2FDEHsufZvKO?imageslim",
+        "wap_max_img": "//fes.qyerstatic.com/FhytA9fDkF7YbwOL2FDEHsufZvKO?imageslim",
+        "wap_min_img": "//fes.qyerstatic.com/FhytA9fDkF7YbwOL2FDEHsufZvKO?imageslim",
+        "qrcode": "https://api.qrserver.com/v1/create-qr-code/?data=https://daole.qyer.com/experiencehall?period=23",
+        "uptime": "1584028800",
+        "type": "穷游体验馆",
+        "state": "0",
+        "ctime": "1584086208",
+        "mtime": "1584086208"
+      },
+      {
         "id": "136",
         "name": "新型肺炎及出行信息动态",
         "link": "",
+        "type": "m",
         "wap_link": "https://m.qyer.com/event/illness/",
         "photo": "//fes.qyerstatic.com/FhN9cMK_4XJg5oRLD3CdoRY3u96T?imageslim",
         "wap_max_img": "//pic.qyer.com/zt/7892/2e92/e2af/7e05/e34b/b190/8391/3cc7",
         "wap_min_img": "//pic.qyer.com/zt/8ce7/864c/88f3/b9fb/20ce/c967/826f/8dc4",
         "qrcode": "https://api.qrserver.com/v1/create-qr-code/?data=https://m.qyer.com/event/illness/",
         "uptime": "1584028800",
-        "type": "疫情信息动态",
         "state": "0",
         "ctime": "1584086208",
         "mtime": "1584086208"
@@ -423,6 +438,7 @@
       },
       {
         "id": "69",
+        "type": "topic640",
         "name": "卡友大会 最萌牛头绘画大赛",
         "wap_link": "https://topic.360che.com/m/2017060501/",
         "photo": "https://img8.kcimg.cn/HW_Image/2017/0619/0619100930.jpg",
@@ -430,6 +446,7 @@
       },
       {
         "id": "68",
+        "type": "topic640",
         "name": "爱拼才会赢 新M3拼出人生新高度",
         "wap_link": "https://topic.360che.com/m/2017051601/",
         "photo": "https://img8.kcimg.cn/HW_Image/2017/0525/0525145454.jpg",
@@ -444,6 +461,7 @@
       },
       {
         "id": "66",
+        "type": "topic640",
         "name": "欧曼EST超级卡车喊你来定制",
         "wap_link": "https://topic.360che.com/m/2016121201/",
         "photo": "https://imgf.360che.com/HW_Image/2016/1214/1214170919.jpg",
@@ -451,6 +469,7 @@
       },
       {
         "id": "65",
+        "type": "topic640",
         "name": "帅铃献礼版隆重上市 幸运大转盘感恩用户",
         "wap_link": "https://topic.360che.com/m/2016071301/",
         "photo": "https://imgf.360che.com/HW_Image/2016/1026/1026144316.jpg",
@@ -459,6 +478,7 @@
       {
         "id": "64",
         "name": "潍柴质领“心”标准 答题活动开始啦！",
+        "type": "topic640",
         "wap_link": "https://topic.360che.com/m/2017051701/index.aspx",
         "photo": "https://img8.kcimg.cn/HW_Image/2017/0522/0522135028.jpg",
         "qrcode": "https://api.qrserver.com/v1/create-qr-code/?data=https://topic.360che.com/m/2017051701/index.aspx"
@@ -466,6 +486,7 @@
       {
         "id": "63",
         "name": "互助问答：卡车之家，所有卡车人温暖的家",
+        "type": "m",
         "wap_link": "https://bbs.360che.com/weixin/",
         "photo": "https://img9.kcimg.cn/imga/0/681/681858.jpg!602",
         "qrcode": "https://api.qrserver.com/v1/create-qr-code/?data=https://bbs.360che.com/weixin/"
@@ -473,6 +494,7 @@
       {
         "id": "62",
         "name": "整车商城",
+        "type": "m",
         "wap_link": "https://maiche.360che.com/index/index",
         "photo": "https://img9.kcimg.cn/imga/0/681/681858.jpg!602",
         "qrcode": "https://api.qrserver.com/v1/create-qr-code/?data=https://maiche.360che.com/index/index"

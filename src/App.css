@@ -279,6 +279,26 @@ img {
     border: 0 none;
     overflow: scroll;
 }
+.app-right .phone-wrap .phone .double-topic640{
+  width: 640px;
+  height: 1100px;
+  background: #fff;
+  position: relative;
+  transform: scale(.5);
+  transform-origin: 0 0;
+  display: block;
+  border: 0 none;
+  overflow: scroll;
+}
+.app-right .phone-wrap .phone .double-m{
+  width: 320px;
+  height: 560px;
+  background: #fff;
+  position: relative;
+  display: block;
+  border: 0 none;
+  overflow: scroll;
+}
 .app-right .info{
   font-size: 12px;
   margin-left: 20px;

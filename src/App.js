@@ -59,7 +59,20 @@ export default class App extends React.Component{
         <div className="app-right">
           <div className="phone-wrap">
             <div className="phone">
-                <iframe id="phone-shell" className="double-dpr" src={types.list[this.state.selectIndex].wap_link}></iframe>
+                <iframe
+                id="phone-shell"
+                className={
+                  (()=>{
+                    if(types.list[this.state.selectIndex].type == 'm'){
+                      return 'double-m'
+                    }else if(types.list[this.state.selectIndex].type == 'topic640'){
+                      return 'double-topic640'
+                    }else{
+                      return 'double-dpr'
+                    }
+                  })()
+                  } 
+                src={types.list[this.state.selectIndex].wap_link}></iframe>
             </div>
           </div>
           <div className="info">
